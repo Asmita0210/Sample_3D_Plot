@@ -11,7 +11,7 @@ A Python script demonstrating how to render three-dimensional visualizations usi
 * Utilizes custom color mapping (viridis) with adjusted transparency (alpha=0.85) and custom camera angles (view_init).
 * Includes a integrated colorbar to map numerical values to visual colors dynamically.
 
-<img src="visualisations/3D Surface: sin(√(x²+y²)).png" alt="3D Surface: sin(√(x²+y²))" width="600"/>
+<img src="visualisations/3D Surface_ sin(√(x²+y²)).png" alt="3D Surface: sin(√(x²+y²))" width="600"/>
 
 ### 3D Scatter Plotting:
 
