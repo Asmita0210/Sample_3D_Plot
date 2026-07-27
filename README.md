@@ -11,11 +11,16 @@ A Python script demonstrating how to render three-dimensional visualizations usi
 * Utilizes custom color mapping (viridis) with adjusted transparency (alpha=0.85) and custom camera angles (view_init).
 * Includes a integrated colorbar to map numerical values to visual colors dynamically.
 
+<img src="visualisations/3D Surface: sin(√(x²+y²)).png" alt="3D Surface: sin(√(x²+y²))" width="600"/>
+
 ### 3D Scatter Plotting:
 
 * Displays multidimensional random data points in 3D space.
 * Maps a fourth dimension of data to the color spectrum using the plasma colormap.
-* Adjusts point size (s=30) and opacity (alpha=0.7) for clearer data point density visualization
+* Adjusts point size (s=30) and opacity (alpha=0.7) for clearer data point density visualization4
+  
+<img src="visualisations/3D Scatter Plot.png" alt="3D Scatter Plot" width="600"/>
+
 
 ### Modular 3D Axis Setup:
 Leverages Matplotlib's projection='3d' capability to easily extend standard 2D figures into fully interactive 3D spaces.
@@ -30,9 +35,10 @@ pip install matplotlib numpy
 1. Clone this repository:
 
     git clone https://github.com/your-username/your-repo-name.git
+   
     cd your-repo-name
 
-2. Run the Python script:
+3. Run the Python script:
 
     python main.py
 
